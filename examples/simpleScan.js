@@ -8,8 +8,7 @@ var options = {
     port    :'21, 22, 23, 80, 443, 4443, 4444, 5038, 5060-5070, 8080',
     status  : 'TROU', // Timeout, Refused, Open, Unreachable
     timeout : 3000,
-    banner  : true,
-    geo	    : true
+    banner  : true
 };
 
 var scanner = new evilscan(options);

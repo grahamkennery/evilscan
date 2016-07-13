@@ -265,10 +265,6 @@ var parse = function(args,cb) {
             'only display results having a valid reverse dns, except if ports specified'
         )
         .describe(
-            'geo',
-            'display geoip (free maxmind)'
-        )
-        .describe(
             'banner',
             'display grabbed banner when available'
         )
@@ -375,7 +371,7 @@ var parse = function(args,cb) {
         argv.ips = result[0];
         argv.ports = result[1];
 
-        if (!argv.port && !argv.reverse && !argv.geo) {
+        if (!argv.port && !argv.reverse) {
             var msg = 'Please specify at least one port, --port=80';
             return cb(msg);
         }

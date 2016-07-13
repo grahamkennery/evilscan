@@ -37,7 +37,6 @@ suite(path.basename(__filename), function() {
             concurrency:1,
             timeout:1,
             json:true,
-            geo:true,
             reverse:true
         },
         result:{
@@ -48,7 +47,6 @@ suite(path.basename(__filename), function() {
             "concurrency":1,
             "timeout":1,
             "json":true,
-            "geo":true,
             "reverse":true,
             "showTimeout":true,
             "showRefuse":true,

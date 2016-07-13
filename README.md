@@ -19,7 +19,6 @@ Currently support :
 * banner grabbing (not fully implemented, works with verbose ports only)
 * IAC negotiation
 * reverse dns
-* geolocation information
 * shell or json output
 * optional progress details
 
@@ -93,8 +92,6 @@ Options
   
   --reversevalid  only display results having a valid reverse dns, except if
                   ports specified                                               
-  
-  --geo           display geoip (free maxmind)                                  
   
   --banner        display banner                                                
  
